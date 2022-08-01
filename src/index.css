@@ -11,3 +11,27 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+:root {
+  --opacity:0.8;
+  --url:'../../../assets/mesh-346.png';
+  --backdrop:blur(5px);
+  --radius:50px;
+  --bakground-gradient:           
+  {
+      /* ff 3.6+ */
+      background:-moz-radial-gradient(circle at 50% 50%, rgba(255, 214, 0, 1) 0%, rgba(193, 37, 5, 1) 100%);
+  
+      /* safari 5.1+,chrome 10+ */
+      background:-webkit-radial-gradient(circle at 50% 50%, rgba(255, 214, 0, 1) 0%, rgba(193, 37, 5, 1) 100%);
+  
+      /* opera 11.10+ */
+      background:-o-radial-gradient(circle at 50% 50%, rgba(255, 214, 0, 1) 0%, rgba(193, 37, 5, 1) 100%);
+  
+      /* ie 10+ */
+      background:-ms-radial-gradient(circle at 50% 50%, rgba(255, 214, 0, 1) 0%, rgba(193, 37, 5, 1) 100%);
+  
+      /* global 92%+ browsers support */
+      background:radial-gradient(circle at 50% 50%, rgba(255, 214, 0, 1) 0%, rgba(193, 37, 5, 1) 100%); }
+  }
+

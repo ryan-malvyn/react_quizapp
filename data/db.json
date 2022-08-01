@@ -1,0 +1,81 @@
+{
+  "questions": [
+    {
+      "question": "What are baby wolves called?",
+      "answers": [
+        "Cubs",
+        "Chicks",
+        "Tadpoles",
+        "Kittens"
+      ],
+      "rightAnswer": "Cubs",
+      "id": 1
+    },
+    {
+      "question": "What does Au stand for in the periodic table?",
+      "answers": [
+        "Magnesium",
+        "Gold",
+        "Water",
+        "Mercury"
+      ],
+      "rightAnswer": "Gold",
+      "id": 2
+    },
+    {
+      "question": "What's the smallest planet in our solar system?",
+      "answers": [
+        "Pluto",
+        "Mars",
+        "Mercury",
+        "Jupiter"
+      ],
+      "rightAnswer": "Mercury",
+      "id": 3
+    },
+    {
+      "question": "When did Berlin Wall Fall?",
+      "answers": [
+        "1983",
+        "1988",
+        "1973",
+        "1989"
+      ],
+      "rightAnswer": "1989",
+      "id": 4
+    },
+    {
+      "question": "Which kind of flower was used as a currency in Holland?",
+      "answers": [
+        "Roses",
+        "Daisies",
+        "Tulips",
+        "Sunflowers"
+      ],
+      "rightAnswer": "Tulips",
+      "id": 5
+    },
+    {
+      "question": "Which marine animals hold hands in their sleep to prevent drifting apart?",
+      "answers": [
+        "Seals",
+        "Sea Otters",
+        "Sea Lions",
+        "Clownfishes"
+      ],
+      "rightAnswer": "Sea Otters",
+      "id": 6
+    },
+    {
+      "question": "What movie is the Oscar-nominated song 'Journey to the Past' from?",
+      "answers": [
+        "Anastasia",
+        "Snow White",
+        "Moana",
+        "Swan Lake"
+      ],
+      "rightAnswer": "Anastasia",
+      "id": 7
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+
+.showScore {
+    display:none;
+}
+
+.game {
+    margin-top:8rem;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap: 2rem;
+    color:white;
+    backdrop-filter:blur(50px);
+}
+
+.multiple-choices {
+    margin-top:2rem;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    gap:2rem;
+}
+
+.scorecount {
+    margin-top:2rem;
+    display:flex;
+    justify-content:center;
+}
+
+.answer {
+    padding:1rem 2rem;
+    border-radius:50px;
+    background-color:white;
+    color:black;
+    opacity:0.2;
+    max-width:200px;
+    min-width:200px;
+    font-weight:bold;
+    outline:none;
+    border:none;
+}
+
+.answer:hover {
+    opacity:0.8;
+}
+
+.question h1{
+    font-size:28px;
+}
+
+.game-components {
+    padding:3rem 4rem;
+    background-image: url('../../../assets/mesh-346.png');
+    border-radius:var(--radius);
+    opacity:0.8;
+}
+
+.showScore {
+    display:flex;
+    justify-content: center;
+}
+
+.showScore button {
+    margin-top:2rem;
+    background-color:transparent;
+    padding:1rem 2rem;
+    border-radius:50px;
+    color:white;
+    font-weight:bold;
+    cursor:pointer;
+}

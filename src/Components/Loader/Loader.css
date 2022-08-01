@@ -1,0 +1,22 @@
+.bouncer {
+    margin-top:3rem;
+    display:flex;
+    justify-content:space-around;
+    align-items:flex-end;
+    width: 100px;
+    height:32px;
+}
+
+.ball {
+    width:15px;
+    height:15px;
+    border-radius:50%;
+    background-color:white;
+    border:2px solid white;
+    animation: bouncer 0.5s cubic-bezier(.19,.57,.3,.98) infinite alternate;
+}
+
+@keyframes bouncer {
+    from { transform: translateY(0) }
+    to { transform: translateY(-32px) }
+}

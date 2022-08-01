@@ -1,0 +1,55 @@
+.main-menu{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:2rem;
+    margin-top:30vh;
+}
+
+.container{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:2rem;
+    padding:5rem;
+    border-radius:2rem;
+    background: url('../../../assets/mesh-346.png');
+    border:1px solid rgba(255,255,255,0.75);
+    opacity:0.8;
+    outline:none;
+    border:none;
+    backdrop-filter: blur(5px);
+}
+
+.playGame{
+    background-color: transparent;
+    color:black;
+    font-weight:bold;
+    padding:0.5rem 1rem;
+    width:200px;
+    height:50px;
+    background: transparent;
+    border-radius:50px;
+    outline:none;
+    border:none;
+    background-color:white;
+    opacity:0.2;
+}
+
+.addQs{
+    background-color:transparent;
+    color:black;
+    font-weight:bold;
+    padding:0.5rem 1rem;
+    width:200px;
+    height:50px;
+    border-radius:50px;
+    border:none;
+    outline:none;
+    background-color:white;
+    opacity:0.2;
+}
+
+.container button:hover{
+    opacity:0.8;
+}
